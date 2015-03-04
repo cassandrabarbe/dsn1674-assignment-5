@@ -1,37 +1,38 @@
 html {
   background-color: white;
-  font-family: georgia;
+  font-family:'Merriweather', serif;
+  box-sizing: border-box;
 }
 
 h1 {
-
   font-weight: normal;
-  font-size: 4em;
+  font-size: 1.5em;
   font-style: normal;
-  font-family: 'Sigmar One', sans-serif;
   line-height: 1;
-  color: #b50560;
+  color: white;
   padding: 1em 0em 0.5em 0em;
   margin: 0em;
   text-align: center;
-  background-color: #d98156;
-
-
+  background-color: #cd5b34;
 }
 
 nav{
   background-color: #cd5b34;
   text-align: center;
-  font-family: georgia;
-
+  overflow: hidden;
 }
+
 .grain-1{
   float:left;
-  width: 15%;
+  width: 10%;
+  padding:0.5em,0em,0em,0em;
 }
+
 .grain-2 {
   float:right;
-  width:15%;
+  width:10%;
+  padding:0.5em,0em,0em,0em;
+
 }
 nav ol {
   list-style-type: none;
@@ -40,20 +41,20 @@ nav ol {
 
 nav li{
   display: inline-block;
+  width: 33.333%
+  float:left;
 }
 
 nav a{
-  display: inline-block;
-  padding: 1em 1.5em;
+  padding: 1em;
   color: white;
   background-color: #cd5b34;
   text-decoration: none;
-  padding: 1em 2em 0.5em 2em
 }
 
 
 ol {
-  list-style-type: circle;
+  list-style-type: ;
   padding: 0;
   line-height: 1.5;
 }
@@ -62,7 +63,6 @@ li {
   font-weight: normal;
   font-size: 1em;
   font-style: normal;
-  font-family: 'georgia', serif;
   line-height: 1;
 }
 
@@ -80,28 +80,33 @@ h2 {
 
   font-weight: normal;
   font-size: 2em;
-  font-style: italic;
-  font-family: 'Sigmar One', sans-serif;
+  font-style: normal;
   line-height: 1;
-  color: #b50560;
-  border-top: solid 0.4em;
+  color: white;
+  clear: both;
+  background-color: #d98156;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+
 }
 
 em {
-  font-weight: bold;
-  font-style: normal;
+  font-weight: normal;
+  font-style: italic;
+  float:left;
 }
 
 strong {
-  color: white;
+  color: black;
   font-weight: bold;
+  float: left;
 }
 
 blockquote {
   font-weight: bold;
   font-size: 0.85em;
   font-style: italic;
-  font-family: 'georgia', sans-serif;
   line-height: 1;
   color: #e9e6e7;
   text-align: center;
@@ -112,33 +117,53 @@ ul {
   list-style-type: none;
   padding: 0;
   line-height: 1.5;
-  color: white;
+  color: black;
+  clear: left;
 }
 
 li {
   font-weight: normal;
   font-size: 1em;
   font-style: normal;
-  font-family: 'Open Sans Condensed', sans-serif;
   line-height: 1;
+  overflow: hidden;
 }
 
-figure{
-  border: solid;
-  margin: 2em;
-  padding: 0.7em;
-  border-radius: 20px;
-  background-color: #fff4cd;
+.grains{
+float: left;
+width: 40%;
+margin-left: 10px;
+margin-right: 5px;
+padding-top: 10px;
+}
+
+.cereals{
+float: right;
+width: 40%;
+margin-top: 5px;
+padding-top: 5px;
+margin-right: 10px;
+margin-left: 5px;
+}
+
+.quinoa{
+width: 40%;
+clear:right;
+margin-top: 10px;
+margin-left: 5px;
+margin-right: 10px;
+float:right;
+
 }
 
 figcaption {
   font-weight: normal;
   font-size: 0.9em;
   font-style: italic;
-  font-family: 'Georgia', serif;
   line-height: 1;
   text-align: center;
-
+  background-color: #d98156;
+  margin: 0px;
 }
 
 dt {
@@ -146,9 +171,13 @@ dt {
 }
 
 footer {
-  background-color: #ff0060;
+  background-color: #cd5b34;
   text-align: left;
-
+  color:beige;
+  font-size: 1em;
+  text-align: center;
+  padding: 1em,1em,1em,1em;
+  clear:both;
 }
 
 img {
@@ -158,8 +187,41 @@ img {
 h3 {
   font-weight: normal;
   font-size: 1em;
-  font-style: italic;
-  font-family: 'Sigmar One', sans-serif;
+  font-style: normal;
   line-height: 1;
-  color: #b50560;
+  color: white;
+}
+
+.peanuts{
+  float: left;
+  width:20%;
+  clear: both;
+  display: block;
+}
+
+.beans{
+  float:left;
+  clear:left;
+  width: 20%;
+  display: block;
+}
+
+.lentils{
+  float:left;
+  clear:left;
+  width: 20%;
+  display: block;
+}
+
+.p2{
+  clear:left;
+  margin:top;
+}
+
+body{
+  margin: 0px;
+}
+
+div {
+  background-color: #d98156;
 }
