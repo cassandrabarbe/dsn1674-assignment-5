@@ -79,7 +79,7 @@ a:hover {
 h2 {
 
   font-weight: normal;
-  font-size: 2em;
+  font-size: 1em;
   font-style: normal;
   line-height: 1;
   color: white;
@@ -152,6 +152,7 @@ clear:right;
 margin-top: 10px;
 margin-left: 5px;
 margin-right: 10px;
+margin-bottom: 10px;
 float:right;
 
 }
@@ -164,6 +165,7 @@ figcaption {
   text-align: center;
   background-color: #d98156;
   margin: 0px;
+  color: white;
 }
 
 dt {
@@ -185,7 +187,7 @@ img {
 }
 
 h3 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1em;
   font-style: normal;
   line-height: 1;
@@ -197,6 +199,8 @@ h3 {
   width:20%;
   clear: both;
   display: block;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .beans{
@@ -204,6 +208,8 @@ h3 {
   clear:left;
   width: 20%;
   display: block;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .lentils{
@@ -211,6 +217,8 @@ h3 {
   clear:left;
   width: 20%;
   display: block;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .p2{
@@ -224,4 +232,32 @@ body{
 
 div {
   background-color: #d98156;
+  }
+
+.corn{
+  width: 100%;
 }
+
+  .rice{
+    width: 50%;
+    float: left;
+  }
+
+  .oats{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    width: 50%;
+  }
+
+  h3{
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    font-size: 1em;
+    font-style: normal;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
