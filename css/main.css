@@ -21,7 +21,14 @@ header{
   background-color:#d05c2e;
   margin: 0;
   overflow: hidden;
+}
 
+.grains{
+  float:left;
+  margin: 0.5px;
+  width: 35%;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 h1{
   color: white;
@@ -49,6 +56,7 @@ nav ol{
   list-style-type: none;
   margin: 0;
   padding: 0em;
+  width: 100%;
 }
 
 nav li{
@@ -62,7 +70,7 @@ nav a{
   font-family: 'Lora', serif;
   padding: 0.5em;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 0.9em;
   border: 1px solid #a93f35;
   display: block;
 }
@@ -77,13 +85,13 @@ nav ol{
 
 .grain-1{
   float: left;
-  width: 10%;
+  width: 7%;
   margin: 0.5em;
 }
 
 .grain-2{
   float: right;
-  width: 10%;
+  width: 7%;
   margin: 0.5em;
 }
 
